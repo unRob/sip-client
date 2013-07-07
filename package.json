@@ -1,0 +1,25 @@
+{
+  "name": "SIP Client",
+  "description": "A very incomplete SIP Client (or User-agent) implementation",
+  "version": "0.0.1",
+  "private": false,
+  "main": "sip-client.js",
+  "readmeFilename": "README.md"
+  "license": "WTFPL",
+  "author": {
+    "name": "Partido Surrealista Mexicano",
+    "email": "rob@surrealista.mx",
+    "url": "http://surrealista.mx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psm/sip-client.git"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "sip": "~0.0.2",
+	"underscore": "~1.5.0"
+  }
+}
