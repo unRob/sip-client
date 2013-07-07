@@ -1,4 +1,4 @@
-var SIPClient = require('/sip-client');
+var SIPClient = require('sip-client');
 var util = require('util');
 
 // I suppose these are pretty self explanatory

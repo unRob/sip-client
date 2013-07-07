@@ -9,7 +9,7 @@ Given I actually have no idea whether this is a "Client" or a "User-agent" (read
 ## Usage
 
 ```javascript
-var SIPClient = require('/sip-client');
+var SIPClient = require('sip-client');
 var util = require('util');
 
 // I suppose these are pretty self explanatory
