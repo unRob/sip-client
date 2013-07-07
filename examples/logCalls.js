@@ -23,7 +23,7 @@ var headers = {
 		uri: uri
 	},
 	to: {
-		name: 'Rob',
+		name: 'A SIP User',
 		uri: uri
 	}
 };
