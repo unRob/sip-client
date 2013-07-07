@@ -55,5 +55,7 @@ message.on('success', function(msg) {
 ```
 
 ## License
+![What the fuck Public License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
+
 
 As usual, licensed under the [WTFPL](http://www.wtfpl.net).

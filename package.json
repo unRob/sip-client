@@ -1,10 +1,10 @@
 {
-  "name": "SIP Client",
+  "name": "sip-client",
   "description": "A very incomplete SIP Client (or User-agent) implementation",
   "version": "0.0.1",
   "private": false,
   "main": "sip-client.js",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
   "license": "WTFPL",
   "author": {
     "name": "Partido Surrealista Mexicano",
