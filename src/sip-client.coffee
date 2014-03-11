@@ -63,8 +63,9 @@ Client.prototype.receive = (data)->
 		when 200
 			request.events.success.forEach (cb)->
 				cb(msg)
-		when 407
-			challenge = msg.headers['proxy-authenticate'][0]
+		when 401, 407
+			challenge_header = if status == 401 then "www-authenticate" else "proxy-authenticate"
+			challenge = msg.headers[challenge_header][0]
 			challenge.realm = challenge.realm.replace(/"/g, '')
 			request.inc_cseq()
 			response = digest.signRequest([challenge], request, msg, {user: @options.user, realm: challenge.realm, password:@options.password})
