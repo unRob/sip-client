@@ -69,7 +69,7 @@ Client.prototype.receive = (data)->
 			challenge.realm = challenge.realm.replace(/"/g, '')
 			request.inc_cseq()
 			response = digest.signRequest([challenge], request, msg, {user: @options.user, realm: challenge.realm, password:@options.password})
-			@send (sip.stringify(response))
+			@send (sip.stringify(request))
 
 
 
